@@ -1,0 +1,54 @@
+
+.dataforhour{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.dataforhour_titles p{
+    width: 100%;
+    margin-top: 2%;
+}
+.dataforhour_time{
+    display: flex;
+    flex-direction: column;
+}
+.dataforhour_time_show{
+    display: flex;
+    width: 100%;
+}
+.dataforhour_time_show span{
+    width: 100%;
+}
+hr{
+    width: 100%;
+}
+.rain{
+    color: blue;
+    font-size: 3rem;
+}
+input{
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+button{
+    border-radius: 10px;
+    padding: 1%;
+    background-color: blue;
+    color: white;
+}
+.plans{
+    display: flex;
+    width: 100vw;
+    align-items: flex-end;
+}
+.plans_p{
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+}
+.plans_p:hover{
+    text-decoration: underline;
+}
